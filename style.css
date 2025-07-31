@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #fff0f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  border: 4px dashed pink;
+  border-radius: 20px;
+  background: white;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: pink;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#yesBtn {
+  background-color: #ffb6c1;
+}
+
+#noBtn {
+  background-color: #90ee90;
+}
+
+.love-text {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
